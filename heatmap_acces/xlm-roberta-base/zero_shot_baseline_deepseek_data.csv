@@ -1,0 +1,5 @@
+train_dataset,abstracts,news,reviews,qa
+abstracts,0.9835,0.591,0.5155,0.5327
+news,0.7235,0.997,0.966,0.8592
+reviews,0.8995,0.981,0.994,0.6229
+qa,0.739,0.9725,0.9035,0.8813

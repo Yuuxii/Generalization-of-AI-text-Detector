@@ -1,0 +1,7 @@
+,train_prompt_type,zero_shot_baseline,in_context_learning_3-shot,style_information_style_example,chain_of_thought_zero_shot,chain_of_thought_one_shot,self-refine
+0,zero_shot_baseline,0.9835,0.6157,0.973,0.9825,0.98,0.961
+1,in_context_learning_3-shot,0.685,0.987,0.7325,0.654,0.808,0.569
+2,style_information_style_example,0.9655,0.7426,0.9665,0.9635,0.9665,0.9245
+3,chain_of_thought_zero_shot,0.982,0.5479,0.976,0.982,0.977,0.963
+4,chain_of_thought_one_shot,0.961,0.6643,0.963,0.942,0.982,0.8415
+5,self-refine,0.9345,0.5013,0.838,0.932,0.7525,0.9925

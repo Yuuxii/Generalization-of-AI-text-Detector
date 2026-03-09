@@ -1,0 +1,93 @@
+\begin{table}[ht]
+\centering
+\begin{tabular}{lccccccc}
+\toprule
+feature & metric & deberta_prompt & deberta_model & deberta_data & roberta_prompt & roberta_model & roberta_data \\
+\midrule
+nan & MATTR & 0.002 & \textit{\textbf{0.326}} & 0.141 & 0.012 & \textbf{0.334} & 0.118 \\
+nan & L_MATTR & 0.013 & \textbf{\underline{\textbf{0.338}}} & 0.107 & 0.008 & \textbf{0.360} & 0.077 \\
+nan & LEX_DEN & 0.016 & \textbf{0.296} & 0.099 & 0.028 & \textit{\textbf{0.362}} & 0.179 \\
+nan & UNIQUE_WORDS & 0.025 & 0.121 & 0.173 & 0.022 & \textbf{0.145} & 0.100 \\
+nan & FLESCH & 0.062 & \textit{\textbf{0.322}} & \textbf{0.222} & 0.059 & \textbf{0.359} & \textit{\textbf{0.262}} \\
+nan & GUNNING_FOG & \textbf{0.089} & \textbf{0.317} & \textbf{0.266} & \textbf{0.087} & \textbf{0.345} & \textbf{\underline{\textbf{0.277}}} \\
+nan & AVG_SENT_LEN & \textbf{0.077} & \textbf{0.295} & 0.171 & \textbf{0.074} & \textbf{0.315} & 0.136 \\
+nan & LONG_SENTS & 0.016 & \textbf{0.202} & 0.109 & 0.029 & \textbf{0.204} & 0.059 \\
+nan & SHORT_SENTS & \textit{\textbf{0.110}} & \textbf{0.150} & 0.076 & \textbf{0.097} & \textbf{0.192} & 0.065 \\
+nan & SENT_LEN_STD & 0.028 & \textbf{0.300} & 0.049 & 0.011 & \textbf{0.323} & 0.055 \\
+nan & len_in_characters & 0.024 & \textbf{0.163} & 0.141 & 0.020 & \textbf{0.188} & 0.039 \\
+nan & polarity & 0.053 & \textbf{0.171} & \textbf{0.253} & \textbf{0.095} & \textbf{0.184} & \textbf{0.197} \\
+nan & subjectivity & 0.024 & 0.048 & 0.002 & 0.061 & 0.086 & 0.016 \\
+nan & POS_VERB & 0.053 & 0.081 & 0.007 & 0.023 & 0.042 & 0.004 \\
+nan & POS_NOUN & 0.032 & \textbf{0.239} & 0.177 & 0.024 & \textbf{0.308} & 0.178 \\
+nan & POS_ADJ & 0.041 & 0.087 & 0.106 & 0.023 & 0.059 & 0.130 \\
+nan & POS_ADV & 0.007 & \textbf{0.217} & 0.179 & 0.011 & \textbf{0.186} & 0.173 \\
+nan & POS_DET & 0.016 & \textbf{0.308} & 0.157 & 0.004 & \textbf{0.317} & \textbf{0.196} \\
+nan & POS_INTJ & 0.030 & 0.077 & 0.112 & 0.011 & 0.079 & 0.067 \\
+nan & POS_CONJ & 0.039 & \textbf{0.217} & 0.136 & 0.023 & \textbf{0.294} & 0.069 \\
+nan & POS_PART & 0.040 & 0.139 & 0.032 & 0.041 & \textbf{0.238} & 0.026 \\
+nan & POS_NUM & \textbf{0.081} & 0.097 & 0.110 & \textbf{0.076} & 0.084 & 0.061 \\
+nan & POS_PREP & 0.039 & \textbf{0.145} & 0.108 & 0.054 & 0.133 & \textbf{0.194} \\
+nan & POS_PRO & 0.037 & \textbf{0.199} & 0.030 & 0.051 & \textbf{0.304} & 0.016 \\
+nan & G_PASSIVE & 0.049 & \textbf{0.178} & \textit{\textbf{0.273}} & 0.029 & \textbf{0.190} & \textbf{0.247} \\
+nan & G_ACTIVE & \textbf{0.064} & \textbf{0.303} & 0.015 & \textbf{0.064} & \textbf{\underline{\textbf{0.389}}} & 0.014 \\
+nan & G_PRESENT & \textbf{0.091} & \textbf{0.277} & 0.077 & \textbf{0.101} & \textbf{0.350} & 0.131 \\
+nan & G_PAST & 0.026 & \textbf{0.281} & 0.056 & 0.006 & \textbf{0.343} & 0.052 \\
+nan & G_FUTURE & \textbf{0.089} & \textbf{0.181} & 0.108 & \textbf{0.081} & \textbf{0.220} & 0.067 \\
+nan & L_CONT_A & 0.021 & \textbf{0.269} & 0.037 & 0.023 & \textbf{0.353} & 0.106 \\
+nan & L_FUNC_A & 0.012 & \textbf{0.266} & 0.058 & 0.022 & \textbf{0.359} & 0.127 \\
+nan & L_CONT_T & 0.050 & \textbf{0.257} & \textbf{0.216} & 0.050 & \textbf{0.303} & \textit{\textbf{0.255}} \\
+nan & L_FUNC_T & 0.002 & 0.131 & 0.084 & 0.001 & 0.093 & 0.153 \\
+nan & L_PROPER_NAME & 0.022 & 0.098 & 0.077 & 0.014 & 0.063 & 0.004 \\
+nan & L_PERSONAL_NAME & \textbf{0.065} & \textbf{0.224} & 0.011 & 0.051 & \textbf{0.200} & 0.093 \\
+nan & L_POSSESSIVES & 0.040 & 0.017 & 0.133 & \textbf{0.063} & 0.021 & 0.172 \\
+nan & L_ADJ_POSITIVE & 0.046 & 0.100 & 0.098 & 0.026 & 0.078 & 0.134 \\
+nan & L_ADJ_COMPARATIVE & 0.023 & \textbf{0.183} & \textbf{0.271} & 0.017 & \textbf{0.284} & \textbf{0.253} \\
+nan & L_ADJ_SUPERLATIVE & \textbf{0.078} & 0.011 & 0.016 & 0.044 & 0.030 & 0.032 \\
+nan & L_ADV_POSITIVE & 0.010 & \textbf{0.194} & 0.162 & 0.009 & \textbf{0.157} & 0.174 \\
+nan & L_ADV_COMPARATIVE & 0.004 & \textbf{0.210} & 0.185 & 0.014 & \textbf{0.176} & 0.175 \\
+nan & L_ADV_SUPERLATIVE & 0.006 & \textbf{0.205} & 0.178 & 0.010 & \textbf{0.171} & 0.164 \\
+nan & ST_REPETITIONS_WORDS & 0.032 & \textbf{0.225} & 0.132 & 0.032 & \textbf{0.241} & 0.144 \\
+nan & ST_REPETITIONS_SENT & nan & nan & nan & nan & nan & nan \\
+nan & L_I_PRON & 0.031 & \textbf{0.185} & 0.075 & 0.043 & \textbf{0.242} & 0.049 \\
+nan & L_HE_PRON & \textit{\textbf{0.116}} & \textbf{0.188} & 0.094 & \textbf{0.100} & \textbf{0.241} & 0.080 \\
+nan & L_SHE_PRON & \textbf{\underline{\textbf{0.122}}} & \textbf{0.230} & 0.056 & \textbf{\underline{\textbf{0.117}}} & \textbf{0.317} & 0.053 \\
+nan & L_IT_PRON & 0.016 & 0.132 & \textbf{0.192} & 0.011 & \textbf{0.220} & \textbf{0.204} \\
+nan & L_YOU_PRON & 0.034 & 0.054 & 0.033 & 0.024 & \textbf{0.151} & 0.001 \\
+nan & L_WE_PRON & 0.037 & 0.092 & 0.028 & 0.042 & 0.080 & 0.092 \\
+nan & L_THEY_PRON & 0.025 & 0.084 & 0.148 & 0.003 & \textbf{0.164} & 0.155 \\
+nan & L_ME_PRON & 0.007 & 0.133 & 0.074 & 0.009 & 0.129 & 0.050 \\
+nan & L_YOU_OBJ_PRON & 0.038 & 0.089 & 0.093 & 0.046 & 0.038 & 0.064 \\
+nan & L_HIM_PRON & \textbf{0.104} & 0.111 & 0.102 & \textit{\textbf{0.102}} & \textbf{0.149} & 0.108 \\
+nan & L_HER_OBJECT_PRON & \textbf{0.088} & \textbf{0.239} & 0.015 & \textit{\textbf{0.109}} & \textbf{0.307} & 0.023 \\
+nan & L_IT_OBJECT_PRON & \textbf{0.070} & \textbf{0.267} & 0.144 & \textbf{0.070} & \textit{\textbf{0.364}} & 0.088 \\
+nan & L_US_PRON & 0.037 & 0.050 & 0.064 & 0.048 & 0.008 & 0.118 \\
+nan & L_THEM_PRON & 0.016 & 0.044 & 0.050 & 0.024 & 0.103 & 0.020 \\
+nan & L_MY_PRON & \textbf{0.087} & \textbf{0.224} & 0.136 & \textbf{0.082} & \textbf{0.270} & 0.112 \\
+nan & L_YOUR_PRON & \textbf{0.069} & 0.118 & 0.151 & 0.056 & 0.086 & 0.134 \\
+nan & L_HIS_PRON & 0.049 & 0.127 & 0.065 & 0.060 & \textbf{0.174} & 0.119 \\
+nan & L_HER_PRON & \textbf{0.069} & \textbf{0.165} & 0.042 & \textbf{0.082} & \textbf{0.186} & 0.106 \\
+nan & L_ITS_PRON & \textbf{0.083} & 0.044 & \textbf{0.203} & \textbf{0.064} & 0.081 & \textbf{0.218} \\
+nan & L_OUR_PRON & 0.007 & 0.026 & 0.178 & 0.002 & 0.063 & 0.180 \\
+nan & L_THEIR_PRON & 0.031 & 0.039 & 0.132 & 0.005 & 0.073 & 0.144 \\
+nan & L_YOURS_PRON & 0.043 & \textbf{0.197} & \textbf{\underline{\textbf{0.278}}} & 0.033 & \textbf{0.215} & \textbf{0.209} \\
+nan & L_THEIRS_PRON & 0.020 & \textbf{0.172} & \textit{\textbf{0.272}} & 0.036 & \textbf{0.200} & \textbf{0.223} \\
+nan & L_HERS_PRON & \textbf{0.076} & 0.098 & 0.039 & \textbf{0.087} & 0.126 & 0.013 \\
+nan & L_OURS_PRON & 0.043 & 0.117 & 0.092 & 0.035 & 0.112 & 0.048 \\
+nan & L_MYSELF_PRON & 0 & 0.088 & 0.123 & 0.003 & 0.113 & 0.072 \\
+nan & L_YOURSELF_PRON & \textbf{0.069} & 0.043 & \textbf{0.190} & \textbf{0.090} & 0.089 & 0.126 \\
+nan & L_HIMSELF_PRON & 0.007 & \textbf{0.174} & 0.025 & 0.017 & \textbf{0.186} & 0.009 \\
+nan & L_HERSELF_PRON & 0.032 & \textbf{0.198} & 0.077 & 0.027 & \textbf{0.197} & 0.042 \\
+nan & L_ITSELF_PRON & 0.020 & 0.082 & 0.146 & 0.036 & 0.045 & 0.145 \\
+nan & L_OURSELVES_PRON & 0.030 & \textbf{0.170} & 0.094 & 0.015 & \textbf{0.248} & 0.087 \\
+nan & L_YOURSELVES_PRON & 0.038 & 0.130 & 0.165 & 0.043 & \textbf{0.162} & 0.108 \\
+nan & L_THEMSELVES_PRON & 0.051 & \textbf{0.286} & 0.013 & \textbf{0.081} & \textbf{0.317} & 0.027 \\
+nan & L_FIRST_PERSON_SING_PRON & 0.031 & \textbf{0.185} & 0.075 & 0.043 & \textbf{0.242} & 0.049 \\
+nan & L_SECOND_PERSON_PRON & 0.043 & 0.054 & 0.009 & 0.030 & 0.008 & 0.032 \\
+nan & L_THIRD_PERSON_SING_PRON & 0.003 & \textbf{0.197} & 0.122 & 0.008 & \textbf{0.267} & 0.135 \\
+nan & L_THIRD_PERSON_PLURAL_PRON & 0.003 & 0.028 & 0.141 & 0.003 & 0.053 & 0.181 \\
+nan & VF_INFINITIVE & 0.032 & \textbf{0.153} & 0.015 & 0.020 & \textbf{0.234} & 0.041 \\
+\bottomrule
+\end{tabular}
+\caption{Your caption here}
+\label{tab:your_label}
+\end{table}
